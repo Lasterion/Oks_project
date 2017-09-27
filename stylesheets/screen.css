@@ -1,0 +1,110 @@
+/* line 1, ../sass/screen.scss */
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #191919;
+}
+
+/* line 7, ../sass/screen.scss */
+body > section {
+  margin: 0 auto;
+  width: 85%;
+  background-size: 100% 100%;
+}
+
+/* line 12, ../sass/screen.scss */
+body > .first {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: f;
+  -webkit-justify-content: f;
+  -ms-flex-pack: f;
+  justify-content: space-between;
+  background-image: url(../img/1.png);
+}
+/* line 28, ../sass/screen.scss */
+body > .first .ask {
+  height: 196px;
+}
+/* line 30, ../sass/screen.scss */
+body > .first .ask div {
+  width: 937px;
+  height: 112px;
+  margin-top: 84px;
+  margin-left: 20px;
+  font-family: 'Segoe UI';
+  font-size: 58px;
+  color: white;
+  text-align: right;
+  padding: 0px 0px 0px 0px;
+  line-height: 56px;
+  font-weight: bold;
+}
+/* line 42, ../sass/screen.scss */
+body > .first .ask div br + span {
+  font-size: 48px;
+  font-weight: normal;
+}
+/* line 48, ../sass/screen.scss */
+body > .first .ask + div {
+  height: 310px;
+  margin-bottom: 38px;
+  background-color: rgba(7, 2, 0, 0.4);
+}
+/* line 52, ../sass/screen.scss */
+body > .first .ask + div button {
+  position: relative;
+  top: -51px;
+  right: -74%;
+}
+/* line 57, ../sass/screen.scss */
+body > .first .ask + div button + div {
+  width: 74%;
+  margin-top: 110px;
+  margin-left: 20px;
+  font-family: 'Segoe UI';
+  font-size: 58px;
+  color: white;
+  text-align: right;
+}
+
+/* line 69, ../sass/screen.scss */
+body > .second {
+  height: 400vh;
+  background-image: url(../img/2.jpg);
+  background-attachment: fixed;
+}
+
+/* line 74, ../sass/screen.scss */
+body button {
+  background-color: rgba(206, 84, 3, 0.95);
+  height: 102px;
+  width: 315px;
+  outline-offset: none;
+  border-radius: 10px;
+  font-family: 'Myriad Pro' sant-serif;
+  color: white;
+  font-size: 36px;
+  border: 5px solid rgba(206, 84, 3, 0.95);
+}
+/* line 84, ../sass/screen.scss */
+body button:hover {
+  border: 5px solid #ec5403;
+}
+/* line 87, ../sass/screen.scss */
+body button a {
+  display: block;
+  width: 300px;
+  height: 98px;
+  line-height: 90px;
+  text-decoration: none;
+  color: white;
+}
